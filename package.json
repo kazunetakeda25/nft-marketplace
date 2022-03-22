@@ -1,0 +1,32 @@
+{
+  "name": "erc721-starter-contracts",
+  "version": "1.0.0",
+  "description": "Starter contracts for an ERC721 project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectOpenSea/erc721-starter-contracts.git"
+  },
+  "author": "devin.finzer@opensea.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectOpenSea/erc721-starter-contracts/issues"
+  },
+  "homepage": "https://github.com/ProjectOpenSea/erc721-starter-contracts#readme",
+  "dependencies": {
+    "@0x/subproviders": "^2.1.11",
+    "opensea-js": "^1.1.5",
+    "openzeppelin-solidity": "^2.5.1",
+    "truffle": "^5.0.37",
+    "truffle-flattener": "^1.4.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "1.0.0-beta.34"
+  },
+  "engines": {
+    "node": "8.11.x",
+    "npm": "5.6.x"
+  }
+}
